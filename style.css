@@ -1,0 +1,226 @@
+*{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* header part */
+
+.logo{
+    width: 120px;
+    margin-left: 50px;
+    margin-top: 26px;
+}
+.headerClass{
+    /* to place elements in same line */
+    display: flex;
+    /* to align 1 item on left and 1 item on right */
+    justify-content: space-between;
+}
+.navLinks{
+    margin-right: 60px;
+    display: flex;
+    list-style-type: none;
+}
+.links{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.links:hover {
+    background-color: red;
+}
+
+/* home section */
+
+#home{
+    margin-top: 100px;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.title-h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.secondName{
+    color: orange;
+}
+.download{
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 30px 0px;
+    display: inline-block;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.images{
+    position: absolute;
+    width: 45%;
+    height: 86%;
+    bottom: 0px;
+    right: 30px;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images img{
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    bottom: 0px;
+    transform: translate(-50%);
+    transition: bottom 1s, left 1s;
+}
+.images:hover #shape{
+    bottom: 40px;
+}
+.images:hover #girl{
+    left: 40%;
+}
+#about{
+    margin-top: 200px;
+}
+.heading{
+    text-align: center;
+}
+.heading h3{
+    color: green;
+}
+.about-content{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 30px;
+    gap: 2rem;
+}
+.about-details{
+    font-size: 18px;
+    text-align: justify;
+}
+.information{
+    margin-top: 20px;
+}
+.info-box{
+    margin-bottom: 10px;
+}
+.info-box span{
+    margin-left: 5px;
+}
+.about-img img{
+    width: 70%;
+}
+#skills{
+    margin-top: 200px;
+}
+.skill-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 2rem;
+}
+.progress-bar{
+    margin-left: 70px;
+    padding: 40px;
+}
+.bar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px 0px;
+    margin-bottom: 5px;
+    position: relative;
+    width: 85%;
+}
+.base-bar{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0px;
+}
+.html-bar{
+    background-color: orange;
+    width: 95%;
+}
+.css-bar{
+    background-color: orange;
+    width: 80%;
+}
+.js-bar{
+    background-color: orange;
+    width: 75%;
+}
+.angular-bar{
+    background-color: orange;
+    width: 80%;
+}
+
+.imageskill img{
+    width: 66%;
+    padding-left: 20px;
+}
+
+#contact{
+    margin-top: 100px;
+}
+.icon-set{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    align-items: center;
+}
+.icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+    margin-left: 10px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.icon :hover{
+    background-image: linear-gradient(to right, red , yellow);
+    animation: shake 1s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+}
+.footer{
+    margin-top: 100px;
+    text-align: center;
+}
+.up-arrow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    float: right;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, red , yellow);
+    margin: 0px 10px 50px 0px;
+}
+.up-arrow i{
+    margin-top: 12px;
+    margin-left: 16px;
+    font-size: 30px;
+}
+   
+
+
